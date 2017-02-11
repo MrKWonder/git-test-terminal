@@ -19,7 +19,7 @@ func countingNumbers(set1: [Int], set2: [Int], set3: [Int]) -> [Int] {
     
     for x in 0..<maxCount {
         
-        if set1.count  x {
+        if set1.count > x {
             combinedArray.append(set1[x])
         }
         
